@@ -75,11 +75,11 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <url>http://localhost:9091/repository/maven-releases/</url>
+            <url>http://host.docker.internal:9091/repository/maven-releases</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://localhost:9091/repository/maven-snapshots/</url>
+            <url>http://host.docker.internal:9091/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
